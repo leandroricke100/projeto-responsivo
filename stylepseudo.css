@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder {
+    color: #ff1396;
+}
+
+p {
+    color: blue;
+}
+
+p::first-line {
+    color: red;
+}
+
+p:hover {
+    color: red;
+}
+
+div {
+    height: 700px;
+    width: 700px;
+    background: blue;
+}
+
+@media (max-width:400px){
+    div {
+        background: red;
+        height: 200px;
+        width: 200px;
+    }
+}
